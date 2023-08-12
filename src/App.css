@@ -1,0 +1,344 @@
+/* PaymentPage.css */
+.payment-container {
+  width: 100%;
+  margin-top: 2px;
+}
+
+.pay {
+  text-align: center;
+  margin-top: 44px;
+  font-size: medium;
+}
+
+.left-content {
+  flex: none;
+  padding: 20px;
+  background: #172746;
+  color: #fff;
+  border-right: 1px solid #ccc;
+  height: 32.4rem;
+}
+
+.num {
+  display: flex;
+}
+
+.one,
+.two {
+  box-sizing: border-box;
+  border: 2px;
+  background-color: #0048FF;
+  color: #fff;
+  border-radius: 800px;
+  height: 20px;
+  text-align: center;
+  top: 0%;
+  width: 20px;
+}
+
+.sign,
+.subscribe {
+  margin-top: 33px;
+  font-size: 12px;
+  right: 64%;
+  top: 1.8%;
+  position: absolute;
+}
+
+.subscribe {
+  top: 1.8%;
+  left: 61%;
+
+}
+
+.two {
+  position: absolute;
+  right: 30%;
+}
+
+.one {
+  top: 0%;
+  position: absolute;
+  margin-left: 79px;
+}
+
+.right-content {
+  flex: none;
+  padding: 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 355px;
+  height: 482px;
+  position: absolute;
+  left: 64%;
+  border-radius: 5px;
+  top: 8.33%;
+  border: 2px solid #BEBEBE;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 20px; 
+}
+
+.head {
+  font-size: 1.9rem;
+  margin-left: 25px;
+}
+
+.rupee {
+  position: relative;
+}
+
+.strike {
+  text-decoration: line-through #FF0000;
+}
+
+.price {
+  position: relative;
+}
+
+.blue {
+  color: blue;
+}
+
+.btn4 {
+  display: flex;
+
+}
+
+.cancel {
+  border-color: #FF0000;
+  color: red;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 6px;
+  height: 35px;
+  width: 130px;
+  margin-top: 7px;
+  left: 10%;
+}
+
+.fee {
+  left: 80px;
+  margin-top: 14px;
+  position: relative;
+}
+
+.cact {
+  margin-left: 330px;
+  margin-top: 14px;
+  position: absolute;
+}
+
+.subs {
+  display: flex;
+  margin-top: 12px;
+  font-size: 12px;
+  top: 60%;
+  position: absolute;
+  margin-left: 79px;
+}
+.subs::after {
+  content: "";
+  display: block;
+  width: 300px;
+  margin-right: 155px;
+  height: 2px;
+  background-color: rgb(175, 173, 173); /* Change to desired color */
+  position: relative;
+  bottom: -7px;
+}
+.offer {
+  box-sizing: border-box;
+  display: flex;
+  font-size: 12px;
+  border-color:#FF0000;
+  width: 316px;
+  color: #FF0000;
+  margin-top: 18px;
+  height: 42px;
+  background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+  border-radius: 8px;
+}
+.red{
+  margin-left: 12px;
+}
+.money{
+  margin-left: 150px;
+}
+.off{
+  margin-top: 25px;
+  margin-left: 12px;
+  font-size: 10px;
+  position: absolute;
+}
+/* Additional styling for the right content */
+.right-content .subscription-options {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 800;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.right-content .subscription-plan {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  border-color: rgb(6, 250, 6);
+
+}
+
+.total,
+.plan {
+  right: 8%;
+  position: absolute;
+}
+
+.plan {
+  margin-top: 12px;
+}
+
+.right-content .total-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.right-content .payment-button {
+  padding: 10px 17px;
+  background-color: #47ba47;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 150px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+.razor{
+  margin-top: 130px;
+  margin-right: 173px;
+  position: absolute;
+}
+
+.include {
+  display: flex;
+  font-size: 11.4px;
+  top: 62%;
+}
+.gst{
+  right: 55%;
+  bottom: 68px;
+  position:absolute;
+}
+.cat{
+  margin-left: 93px;
+  position: absolute;
+  bottom: 68px;
+  font-weight: 900;
+}
+.label, .recommended{
+  box-sizing: border-box;
+  height: 15px;
+  text-align: center;
+  width: 90px;
+  font-size: 10px;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #f79393;
+}
+.recommended{
+  background-color: #52db52;
+  top: 31.4%;
+  left: 20%;
+  position: absolute;
+}
+.label{
+  top: 20%;
+  margin-top: 5px;
+  left: 20%;
+  position: absolute;
+}
+
+/* Responsive Styling */
+@media (max-width: 767px) {
+  .payment-container {
+    flex-direction: column;
+  }
+
+  .right-content {
+    width: 100%;
+    padding: 10px;
+  }
+  .left-content,
+  .right-content {
+    flex: auto;
+    border: none;
+  }
+}
+
+
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #051527;
+}
+
+.courses {
+  gap: 62px;
+  position: absolute;
+  left: 15%;
+  top: 3%;
+  color: #000000;
+}
+
+.search {
+  height: 16px;
+  width: 17px;
+  margin-right: 20px;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+}
+
+.btn1 {
+  margin-left: 20px;
+  background: linear-gradient(90.72deg, #0096FF 42.18%, #0048FF 93.77%);
+  border-radius: 30px;
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+
+.crs {
+  background: transparent;
+  border: none;
+}
+
+.prg {
+  margin-left: 39px;
+}
+
+.right {
+  position: absolute;
+  right: 7%;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
